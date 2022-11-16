@@ -3,6 +3,9 @@
 #print(t)
 
 #Tömb létrehozás, bekérés, eltárolás
+
+import random
+
 t=[]
 for i in range(5):
     t.append(int(input("Számot: ")))
