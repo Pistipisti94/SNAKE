@@ -1,8 +1,8 @@
-c = 10000   # alaptőke
-r = 0.08    # névleges kamatláb
-m = 12     # évközi kamatozások száma
-t = int(input("Írd be hány évre szeretnéd a kamatozást: ")) # futamidő
+a = 10000   # alaptőke
+b = 0.08    # névleges kamatláb
+c = 12     # évközi kamatozások száma
+d = int(input("Írd be hány évre szeretnéd a kamatozást: ")) # futamidő
 
-fv = (c * ((1 + r / m) ** (m * t)))
+xy = (a * ((1 + b / c) ** (c * d)))
 
-print("A betét értéke:", fv)
+print("A betét értéke:", xy)

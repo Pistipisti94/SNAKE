@@ -1,14 +1,14 @@
 # 1. feladat
 
 szoveg = "Lustaság fél egézség"
-szovegFeloszt = []
+Osztas = []
 
 for i in range(0, len(szoveg)):
-   szovegFeloszt.append(1)
-   szovegFeloszt[i] = szoveg[i:i+1]
+   Osztas.append(1)
+   Osztas[i] = szoveg[i:i+1]
 
-for i in range(0, len(szovegFeloszt)):
-   print(szovegFeloszt[i])
+for i in range(0, len(Osztas)):
+   print(Osztas[i])
 
 # 2. feladat
 
