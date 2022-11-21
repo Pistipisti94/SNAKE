@@ -1,10 +1,10 @@
-jelenlegiIdo = 14
-csengetes = 51
+Nido = 14
+csengo = 51
 
 for i in range(0,51):
-   if jelenlegiIdo == 23:
-      jelenlegiIdo = 0
+   if Nido == 23:
+      Nido = 0
    else:
-      jelenlegiIdo += 1
+      Nido += 1
       
-print(jelenlegiIdo,"órakkor fog megszólalni a csengő.")
+print(Nido,"órakkor fog Szólni a csengő.")

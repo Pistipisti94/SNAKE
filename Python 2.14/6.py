@@ -7,5 +7,5 @@ e = 6%6
 #g = 7%0
 
 
-print(a,b,c,d,e,"NaN","NaN")
+print(a,b,c,d,e,"igen","talan")
 
