@@ -1,6 +1,6 @@
 # 1. feladat
 
-szoveg = "Lustaság fél egézség"
+szoveg = "Lustaság fél egészség"
 Osztas = []
 
 for i in range(0, len(szoveg)):
