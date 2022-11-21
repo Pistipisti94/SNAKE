@@ -1,15 +1,9 @@
 # 1. feladat
 
-szoveg = "Lustaság fél egészség"
-Osztas = []
-
-for i in range(0, len(szoveg)):
-   Osztas.append(1)
-   Osztas[i] = szoveg[i:i+1]
-
-for i in range(0, len(Osztas)):
-   print(Osztas[i])
-
+a = "Lustaság "
+b = "fél"
+c = "egészség"
+print(a,b,c)
 # 2. feladat
 
 print(6* (1 - 2)) # 3. feladat
