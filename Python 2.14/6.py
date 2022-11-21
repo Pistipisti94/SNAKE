@@ -7,5 +7,5 @@ f = 0%7
 #g = 7%0
 
 
-print(a,b,c,d,e,f,"talan")
+print(a,b,c,d,e,f,"igen")
 
