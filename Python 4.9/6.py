@@ -8,6 +8,7 @@ def rajz(teki, sz):
 
 kep = turtle.Screen()
 teki = turtle.Turtle()
+teki.speed(10)
 kep.bgcolor("lightgreen")
 teki.pensize("6")
 teki.pencolor("blue")

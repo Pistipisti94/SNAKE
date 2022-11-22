@@ -6,7 +6,7 @@ kep.bgcolor("lightgreen")
 teki.pensize("3")
 teki.pencolor("hotpink")
 
-def sokszog_rajzolas(t,n,sz):
+def sokszog_rajzolas(teki,n,sz):
    for i in range(0,n):
       teki.left(sz)
       teki.forward(50)
