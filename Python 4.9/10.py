@@ -5,7 +5,7 @@ teki = turtle.Turtle()
 kep.bgcolor("lightgreen")
 teki.pensize("3")
 teki.pencolor("hotpink")
-teki.speed(150)
+teki.speed(10)
 
 teki.left(35)
 for i in range(0,5):
