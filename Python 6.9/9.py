@@ -26,7 +26,7 @@ def ketto(szammm):
         return False
 beee = int(input("Másodperc/perc-maradék másodperc(mp): "))
 if egy(beee):
-    print(beee," másodpercbe ",int(beee%60),"perc")
+    print(beee," másodpercbe ",int(beee%60),"maradék másodperc van")
 else:
-    print(beee," másodpercbe ",int(beee%60),"perc")
-#szöveg
+    print(beee," másodpercbe ",int(beee%60),"maradék másodperc van")
+
