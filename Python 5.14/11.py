@@ -11,4 +11,4 @@ while isDone:
       isDone = False
    except:
       print("Rossz adatbevitel!")
-if abs()
+
