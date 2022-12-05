@@ -7,3 +7,6 @@ def osszehasonlitas(x,y):
     elif x==y:
         print("0")
     return h
+a=int(input("Szám1: "))
+b=int(input("Szám2: "))
+osszehasonlitas(a,b)
