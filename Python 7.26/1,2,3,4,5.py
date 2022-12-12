@@ -34,3 +34,26 @@ def otszo():
             a += 1
     print(a)
 otszo()
+
+def paroselott():
+    t=[1,3,5,7,-2,9,2,4,6,8,1,4,5,7,1,2,9]
+    bt=[]
+    for x in t:
+        if x%2!=0:
+            bt.append(x)
+        else:
+            return bt
+    
+print(paroselott())
+
+def paroselott():
+    t=[1,3,5,7,]
+    bt=[]
+    for x in t:
+        if x%2!=0:
+            bt.append(x)
+        else:
+            return bt
+    
+print(paroselott())
+#Azt írja None
