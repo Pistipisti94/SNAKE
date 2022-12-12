@@ -25,11 +25,12 @@ def negativ():
     print(bt)
 negativ()
 
-# def otszo(t):
-#     t=["szo","szavak","otbet","ferko"]
-#     a=0
-#     for x in t:
-#         if x.len == 5:
-#             a += 1
-#     print(a)
-# otszo()
+def otszo():
+    t=["szo","szavak","otbet","ferko"]
+    a=0
+    for i in t:
+        x = len(i)
+        if x == 5:
+            a += 1
+    print(a)
+otszo()
