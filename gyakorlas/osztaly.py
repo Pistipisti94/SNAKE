@@ -61,3 +61,21 @@ class hasab:
         return (self.a*self.b+self.a*self.m+self.b*self.m)*2
     def getterfogat(self):
         return (self.a*self.b*self.m)
+
+class valaki:
+    def __init__(self,nev="",kora=0,nem=""):
+        self.nev=nev
+        self.kor=kora
+        self.nem=nem
+    def setnev(self,nev):
+        self.nev=nev
+    def setkor(self,kora):
+        self.kora= kora
+    def setnem(self,nem):
+        self.nem=nem
+    def getnev(self):
+        return self.nev
+    def getkor(self):
+        return self.kora
+    def getnem(self):
+        return self.nem
