@@ -27,3 +27,15 @@ class negyzet:
         return 4*(self.a)
     def getterulet(self):
         return (self.a)*(self.a)
+
+class kor:
+    def __init__(self,r=0,):
+        self.r=r
+    def setR(self, r):
+        self.r = r
+    def getR(self):
+        return self.r
+    def getkerulet(self):
+        return 2*(self.r)*3.14
+    def getterulet(self):
+        return ((3.14*(2*self.r))/4) 
