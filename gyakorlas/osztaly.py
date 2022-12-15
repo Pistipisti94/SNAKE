@@ -39,3 +39,25 @@ class kor:
         return 2*(self.r)*3.14
     def getterulet(self):
         return ((3.14*(2*self.r))/4) 
+
+class hasab:
+    def __init__(self,a = 0,m = 0,b = 0):
+        self.a = a
+        self.m = m
+        self.b = b
+    def setA(self,a):
+        self.a = a
+    def setM(self,m):
+        self.m = m
+    def setB(self,b):
+        self.b = b
+    def getA(self):
+        return self.a
+    def getM(self):
+        return self.m
+    def getB(self):
+        return self.b
+    def getfelulet(self):
+        return (self.a*self.b+self.a*self.m+self.b*self.m)*2
+    def getterfogat(self):
+        return (self.a*self.b*self.m)
