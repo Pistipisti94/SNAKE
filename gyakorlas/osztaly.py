@@ -15,3 +15,15 @@ class teglalap:
         return 2*(self.a)+(self.b)
     def getterulet(self):
         return (self.a)*(self.b)
+
+class negyzet:
+    def __init__(self,a=0):
+        self.a = a
+    def setA(self,a):
+        self.a = a
+    def getA(self):
+        return self.a
+    def getkerulet(self):
+        return 4*(self.a)
+    def getterulet(self):
+        return (self.a)*(self.a)
