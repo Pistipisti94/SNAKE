@@ -1,0 +1,1 @@
+def szo_tisztitas()
