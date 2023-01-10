@@ -1,4 +1,3 @@
-
 def testmagassag(ma):
     if ma>170:
         return True
